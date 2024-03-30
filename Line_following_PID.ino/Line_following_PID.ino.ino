@@ -1,3 +1,4 @@
+// For PID code
 #ifndef cbi
 #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
 #endif
@@ -177,7 +178,7 @@ void readLine() {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// //updated 29 June 2023
+// For If else normal code.
 
 // #ifndef cbi
 // #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
